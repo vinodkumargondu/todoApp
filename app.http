@@ -1,0 +1,4 @@
+GET http://localhost:3000/todos/?search_q=play
+
+###
+GET http://localhost:3000/todos/4/
