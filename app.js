@@ -143,7 +143,7 @@ app.put("/todos/:todoId/", async (request, response) => {
   const requestBody = request.body;
   switch (true) {
     case requestBody.status !== undefined:
-      updateColumn = updateColumn + "Status";
+      updateColumn = "Status";
       break;
     case requestBody.priority !== undefined:
       updateColumn = "Priority";
